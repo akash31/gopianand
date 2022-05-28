@@ -1,0 +1,790 @@
+/* media-query
+------------------------------------------------*/
+
+@media handheld, only screen and (max-width: 1440px) {
+    .container{
+        max-width: 1260px;
+    }
+
+    h2{
+        font-size: 52px;
+        line-height: 62px;
+    }
+    h3{
+        font-size: 30px;
+        line-height: 36px;
+    }
+    .whatwe-block p{
+        font-size: 17px;
+        line-height: 26px;
+    }
+   
+    .slider-bgimage .slick-list {
+        max-width: 680px;
+    }
+
+    .aboutus-contbox .container{
+        max-width: 1200px;
+    }
+    .imgcont-panel-section .two-blocks-box .imgpnael-conbox h3{
+        font-size: 28px;
+        margin-bottom: 15px;
+        line-height: 32px;
+    }
+    .imgcont-panel-section .two-blocks-box .imgpnael-conbox p {
+        color: #fff;
+        font-size: 16px;
+        line-height: 22px;
+    }
+    .imgcont-panel-section .two-blocks-box .imgpnael-conbox{
+        padding: 18px 22px 85px;
+    }
+    .onlycontent-section h2 {
+        font-size: 44px;
+        line-height: 54px;
+    }
+    .whatwe-block span a img {
+        width: 65px;
+    }
+}
+
+@media handheld, only screen and (max-width: 1280px) {
+    h1 {
+        font-size: 58px;
+        line-height: 66px;
+    }
+    .banner-mid-contbox p {
+        font-size: 20px;
+        line-height: 30px;
+    }
+
+    .slider-bgimage .slider-slic button.slick-arrow.slick-prev:before,
+    .slider-bgimage .slider-slic button.slick-arrow.slick-next:before {
+        width: 47px;
+        height: 47px;
+    }
+    .slider-bgimage .slider-slic button.slick-arrow.slick-prev {
+        right: 85px;
+    }
+    .whatwe-do-section {
+        padding: 80px 0;
+    }
+    h2 {
+        font-size: 44px;
+        line-height: 52px;
+    }
+    .title-withcont {
+        margin-bottom: 40px;
+    }
+    .whatwe-block span a img {
+        width: 60px;
+    }
+    h3 {
+        font-size: 28px;
+        line-height: 36px;
+    }
+    .whatwe-block p {
+        font-size: 16px;
+        line-height: 24px;
+    }
+    .aboutus-contbox {
+        padding: 80px 0;
+    }
+    .aboutus-contbox .about-conbtn a {
+        min-width: 200px;
+        font-size: 18px;
+    }
+    .imgcont-panel-section .two-blocks-box .imgpnael-conbox h3 {
+        font-size: 24px;
+        margin-bottom: 10px;
+        line-height: 30px;
+    } 
+    .imgcont-panel-section .two-blocks-box .imgpnael-conbox p {
+        color: #fff;
+        font-size: 14px;
+        line-height: 20px;
+    }
+    .imgcont-panel-section .two-blocks-box .imgpnael-conbox a.lets-startbtn{
+        min-width: 180px;
+        height: 45px;
+        line-height: 45px;
+        font-size: 18px;
+    }
+    .onlycontent-section {
+        padding: 80px 0 0px;
+    }
+    .onlycontent-section h2 {
+        font-size: 38px;
+        line-height: 46px;
+    }
+    .onlycontent-section p {
+        margin: 0;
+        font-size: 16px;
+        line-height: 28px;
+    } 
+    .onlycontent-section a.default-btn {
+        min-width: 180px;
+        height: 45px;
+        line-height: 45px;
+        font-size: 18px;
+    }
+    .usrupload-imgvid-section .disp-flexbox{
+        top: 65px;
+    }
+    footer {
+        padding: 130px 0 36px;
+    }
+
+}
+
+@media handheld, only screen and (max-width: 1100px) {
+    
+    .slider-bgimage .slider-slic button.slick-arrow{
+        bottom: 20px;
+         width: 47px;
+        height: 47px;
+    }
+    .slider-bgimage .slider-slic button.slick-arrow.slick-next {
+        right: 5px;
+    }
+    .slider-bgimage .slider-slic button.slick-arrow.slick-prev {
+        right: 70px;
+    }
+    h2 {
+        font-size: 38px;
+        line-height: 46px;
+    }
+    .title-withcont h2 {
+        margin-bottom: 10px;
+    }
+    .title-withcont {
+        margin-bottom: 30px;
+    }
+    .whatwe-do-section {
+        padding: 50px 0;
+    }
+    h3 {
+        font-size: 24px;
+        line-height: 32px;
+    }
+    .whatwe-do-mainbox .whatwe-block {
+        padding: 0 30px;
+    }
+    .aboutus-contbox.two-blocks h3{
+        font-size: 26px;
+    }
+    .imgcont-panel-section .two-blocks-box .imgpnael-conbox h3 {
+        font-size: 20px;
+        line-height: 26px;
+    }
+    .imgcont-panel-section .two-blocks-box .imgpnael-conbox {
+        padding: 15px 15px 85px;
+    }
+    .imgcont-panel-section .two-blocks-box .imgpnael-conbox a.lets-startbtn {
+        min-width: 140px;
+        height: 40px;
+        line-height: 40px;
+        font-size: 15px;
+    }
+    .onlycontent-section h2 {
+        font-size: 32px;
+        line-height: 40px;
+    }
+    .usrupload-imgvid-section .two-blocks{
+            padding: 40px 35px 35px;
+    }
+    .usrupload-imgvid-section .two-blocks.greenbg-col h3,
+    .usrupload-imgvid-section .two-blocks.darkgreybg-col h3 {
+     
+        font-size: 22px;
+        line-height: 30px;
+        margin-bottom: 10px;
+    }
+    .usrupload-imgvid-section .two-blocks.greenbg-col p,
+    .usrupload-imgvid-section .two-blocks.darkgreybg-col p{
+        font-size: 14px;
+        line-height: 24px;
+    }
+    .ftr-blocks .ftr-heading {
+        font-size: 20px;
+    }
+    .ftr-blocks ul.ftr-links li {
+     
+        margin-bottom: 10px;
+    }
+    .ftr-blocks .emain-moblinks span {
+     
+        margin-bottom: 6px;
+    }
+    .ftr-sociallinks ul li a{
+        width: 30px;
+    }
+    .whatwe-do-section .title-withcont {
+        padding: 0 15px;
+    }
+    .who-ayedsazan-listsection .all-list-boxes ul li p {
+        margin: 0;
+        font-size: 18px;
+        line-height: 23px;
+    }
+
+}
+@media handheld, only screen and (max-width: 1023px) {
+    h1 {
+        font-size: 52px;
+        line-height: 64px;
+    }
+    .banner-mid-contbox p {
+        font-size: 16px;
+        line-height: 26px;
+        margin-bottom: 0px;
+    }
+    h2 {
+        font-size: 34px;
+        line-height: 42px;
+    }
+    .aboutus-contbox {
+        padding: 40px 0;
+    }
+    .onlycontent-section {
+        padding: 50px 0 0px;
+    }
+    .onlycontent-section h2 {
+        font-size: 30px;
+        line-height: 38px;
+    }
+    .usrupload-imgvid-section .two-blocks.greenbg-col h3, .usrupload-imgvid-section .two-blocks.darkgreybg-col h3 {
+        font-size: 20px;
+        line-height: 26px;
+        margin-bottom: 6px;
+    }
+    .usrupload-imgvid-section .two-blocks.greenbg-col p,
+    .usrupload-imgvid-section .two-blocks.darkgreybg-col p{
+        margin-bottom: 10px;
+    }
+    .usrupload-imgvid-section .two-blocks {
+        padding: 20px 25px 25px;
+    }
+    footer {
+        padding: 110px 0 36px;
+    }
+    .about-page-section .aboutus-contbox {
+        padding: 40px 0 40px;
+    }
+    .who-ayedsazan-listsection .middle-listtitle h2 {
+        font-size: 28px;
+        line-height: 34px;
+    }
+    .who-ayedsazan-listsection .middle-listtitle p {
+        line-height: 24px;
+        font-size: 16px;
+    }
+    .who-ayedsazan-listsection{
+        padding:30px 0; 
+    }
+    .who-ayedsazan-listsection .all-list-boxes {
+        padding-top: 20px;
+    }
+    .wellcome-middle-section .middle-welcom-box p {
+        font-size: 28px;
+        line-height: 34px;
+    }
+    .wellcome-middle-section .middle-welcom-box h2 {
+        font-size: 30px;
+        line-height: 38px;
+    }
+    .wellcome-middle-section .middle-welcom-box {
+        max-width: 700px;
+    }
+    .aboutpage-cont-witimg .onlycontent-section {
+        padding: 60px 0 50px;
+    }
+}
+@media handheld, only screen and (max-width: 991px) {
+    .imgcont-panel-section .two-blocks-box {
+        float: left;
+        width: 100%;
+    }
+    header .right-header .menu-box nav ul li {
+        display: inline-block;
+        margin-left: 40px;
+    }
+    header .logo a img {
+        width: 190px;
+    }
+    header .right-header {
+        padding-top: 20px;
+    }
+    header .right-header .menu-box nav ul li a {
+        font-size: 16px;        
+    }
+    header .right-header .headerlang-box span.select2.select2-container .selection .select2-selection span.select2-selection__rendered{
+        font-size: 15px;
+    }
+    header .right-header .headerlang-box span.select2.select2-container .selection .select2-selection {
+        height: 40px;
+    }
+    header .right-header .headerlang-box span.select2.select2-container .selection .select2-selection span.select2-selection__rendered {
+        line-height: 38px;
+    }
+    header .right-header .headerlang-box span.select2.select2-container .selection .select2-selection span.select2-selection__arrow{
+        height: 38px;
+        width: 27px;
+        right: 10px;
+    }
+    h1 {
+        font-size: 42px;
+        line-height: 52px;
+    }
+
+    h2 {
+        font-size: 30px;
+        line-height: 38px;
+    }
+    h3 {
+        font-size: 20px;
+        line-height: 28px;
+    }
+    .whatwe-block h3{
+        margin-bottom: 10px;
+    }
+    .whatwe-block p {
+        font-size: 14px;
+        line-height: 20px;
+    }
+    .whatwe-block span a img {
+        width: 45px;
+    }
+    .whatwe-block span a {
+        position: absolute;
+        bottom: -15px;
+        right: -13px;
+    }
+    .whatwe-do-mainbox .whatwe-block {
+        padding: 0 20px;
+    }
+    .whatwe-block span{
+        margin-bottom: 25px;
+    }
+    .whatwe-do-section .title-withcont {
+        padding: 0 5px;
+        margin-bottom: 15px;
+    }
+    .whatwe-do-section {
+        padding: 30px 0;
+    }
+    .aboutus-contbox .aboutus-contbox {
+        width: 44%;
+    }
+    .aboutus-contbox .aboutimg-box {
+        display: inline-block;
+        width: 55%;
+    }
+    .aboutus-contbox.two-blocks h3 {
+        font-size: 22px;
+        line-height: 28px;
+    }
+    .aboutus-contbox.two-blocks p {
+        font-size: 14px;
+        line-height: 20px;
+    }
+    .aboutus-contbox.two-blocks h4 {
+        font-size: 20px;
+        line-height: 26px;
+    }
+    .aboutus-contbox .about-conbtn a {
+        min-width: 150px;
+        font-size: 16px;
+        height: 40px;
+        line-height: 40px;
+    }
+    .imgcont-panel-section .two-blocks-box:nth-child(2) .dis-flexbox .imgpnael-conbox,
+    .imgcont-panel-section .two-blocks-box:nth-child(3) .dis-flexbox .imgpanel-box,
+    .imgcont-panel-section .two-blocks-box:last-child .dis-flexbox .imgpnael-conbox
+    {
+        order: 1;
+    }
+
+    .imgcont-panel-section .two-blocks-box:nth-child(2) .dis-flexbox .imgpanel-box,
+    .imgcont-panel-section .two-blocks-box:nth-child(3) .dis-flexbox .imgpnael-conbox,
+    .imgcont-panel-section .two-blocks-box:last-child .dis-flexbox .imgpanel-box {
+        order: 2;
+    }
+    .onlycontent-section h2 {
+        font-size: 26px;
+        line-height: 34px;
+    }
+    .onlycontent-section {
+        padding: 35px 0 0px;
+    }
+    .onlycontent-section p {
+        margin: 0;
+        font-size: 15px;
+        line-height: 26px;
+    }
+    .onlycontent-section a.default-btn {
+        min-width: 150px;
+        height: 40px;
+        line-height: 40px;
+        font-size: 16px;
+    }
+    .usrupload-imgvid-section .two-blocks.greenbg-col h3, .usrupload-imgvid-section .two-blocks.darkgreybg-col h3 {
+        font-size: 18px;
+        line-height: 24px;
+        margin-bottom: 6px;
+    }
+    .usrupload-imgvid-section .two-blocks.darkgreybg-col a.green-semore,
+    .usrupload-imgvid-section .two-blocks.greenbg-col a.white-semore{
+        font-size: 15px;
+    }
+    .ftr-blocks .ftr-heading {
+        font-size: 18px;
+        line-height: 24px;
+    }
+    .ftr-blocks ul.ftr-links li a,
+    .ftr-blocks .emain-moblinks span a {
+        font-size: 14px;
+        line-height: 18px;
+    }
+    .ftr-blocks ul.ftr-links li {
+        margin-bottom: 7px;
+    }
+    .ftr-blocks .ftr-add-box p {
+        font-size: 14px;
+        margin-bottom: 0px;
+        line-height: 26px;
+    }
+    footer .three-block{
+        width: 28%;
+    }
+    footer .three-block:last-child {
+        width: 44%;
+    }
+    .ftrform-box .submit-btn {
+        min-width: 120px;
+        font-size: 16px;
+        height: 40px;
+        line-height: 40px;
+    }
+    .left-contact-infbox .contrit-textbox p,
+    .left-contact-infbox .contrit-textbox p a {
+        font-size: 22px;
+        line-height: 25px;
+    }
+    .inner-page-banner {
+        height: 330px;
+        padding-top: 150px;
+    }
+    .inner-page-banner h1 span {
+        font-size: 28px;
+        line-height: 28px;
+    }
+    .contact-box-section {
+        padding: 45px 0 25px;
+    }
+}
+@media handheld, only screen and (max-width: 767px) {
+    header .right-header .headerlang-box {
+        display: inline-block;
+        margin-left: 0;
+    }
+    header .logo a img {
+        width: 150px;
+    }
+    header .right-header {
+        padding-top: 11px;
+    }
+    header .right-header .menu-box {
+        display: none;
+        position: fixed;
+        width: 100%;
+        height: 100%;
+        left: 0;
+        right: 0;
+        background-color: #30a880;
+        top: 0;
+        bottom: 0;
+        z-index: 999;
+    }
+    .mobile-menu-box a.mobile-menu {
+        width: 30px;
+        height: 25px;
+        background-color: transparent;
+        display: inline-block;
+        position: relative;
+        margin-top: 10px;
+        z-index: 999;
+    }
+
+    .mobile-menu-box a.mobile-menu span {
+        position: absolute;
+        width: 100%;
+        height: 3px;
+        background-color: #fff;
+        transition: all ease-in .3s;
+    }
+
+    .mobile-menu-box a.mobile-menu span:nth-child(2) {
+        top: 8px;
+    }
+
+    .mobile-menu-box a.mobile-menu span:nth-child(3) {
+        top: 16px;
+    }
+
+    .right-header .mobile-menu-box {
+        float: right;
+        margin-left: 15px;
+    }
+    header .right-header .menu-box nav {
+        position: absolute;
+        left: 0;
+        right: 0;
+        top: 50%;
+        transform: translateY(-50%);
+    }
+
+    header .right-header .menu-box nav ul li {
+        display: block;
+        text-align: center;
+        margin: 15px 0;
+    }
+
+    header .right-header .menu-box nav ul li a {
+        text-transform: uppercase;
+        font-size: 20px;
+        line-height: 28px;
+    }
+    h1 {
+        font-size: 36px;
+        line-height: 44px;
+    }
+    .slider-bgimage, .slider-bgimage .container, .slider-bgimage .slider-slic, .slider-slic .banner-mid-contbox {
+        height: 450px;
+    }
+    .slider-bgimage .slider-slic button.slick-arrow {
+        bottom: 20px;
+        width: 35px;
+        height: 35px;
+    }
+    .slider-bgimage .slider-slic button.slick-arrow.slick-prev:before, .slider-bgimage .slider-slic button.slick-arrow.slick-next:before {
+        width: 35px;
+        height: 35px;
+    }
+    .slider-bgimage .slider-slic button.slick-arrow.slick-prev {
+        right: 55px;
+    }
+    h2 {
+        font-size: 26px;
+        line-height: 35px;
+    }
+    .whatwe-do-mainbox .whatwe-block {
+        padding: 0 15px;
+        width: 100%;
+        margin-bottom: 40px;
+    }
+    .title-withcont p {
+        font-size: 14px;
+        line-height: 22px;
+    }
+    .whatwe-do-section .title-withcont {
+        padding: 0;
+
+    }
+    .whatwe-block span a {
+        bottom: -15px;
+        right: -9px;
+    }
+    .aboutus-contbox .aboutus-contbox {
+        width: 100%;
+        text-align: center;
+        max-width: 100%;
+    }
+    .aboutus-contbox .contamax-width{
+        max-width: 100%; 
+        margin-bottom: 30px;
+    }
+    .aboutus-contbox .aboutimg-box{
+        width:100%;
+    }
+    .imgcont-panel-section .two-blocks-box .dis-flexbox .imgpnael-conbox {width: 100%;}
+
+    .imgcont-panel-section .two-blocks-box .dis-flexbox .imgpanel-box {
+        width: 100%;
+        height: 300px;
+    }
+    .imgcont-panel-section .two-blocks-box .dis-flexbox .imgpnael-conbox{
+        height: auto;
+    }
+    .usrupload-imgvid-section .two-blocks{
+        width: 100%;
+    }
+
+    footer .three-block:last-child {
+        width: 100%;
+    } 
+    footer .three-block {
+        width: 50%;
+    }
+    .imgcont-panel-section .two-blocks-box .dis-flexbox{
+        flex-wrap: wrap;
+    }
+    .imgcont-panel-section .two-blocks-box:nth-child(2) .dis-flexbox .imgpanel-box, .imgcont-panel-section .two-blocks-box:nth-child(3) .dis-flexbox .imgpnael-conbox, .imgcont-panel-section .two-blocks-box:last-child .dis-flexbox .imgpanel-box,
+    .imgcont-panel-section .two-blocks-box:nth-child(2) .dis-flexbox .imgpnael-conbox, .imgcont-panel-section .two-blocks-box:nth-child(3) .dis-flexbox .imgpanel-box, .imgcont-panel-section .two-blocks-box:last-child .dis-flexbox .imgpnael-conbox {
+        order: inherit;
+    }
+    .imgcont-panel-section .two-blocks-box .dis-flexbox .imgpanel-box {
+        order: 1;
+    }
+
+    .imgcont-panel-section .two-blocks-box .dis-flexbox .imgpnael-conbox {
+        order: 2 !important;
+    }
+    body.addoverlay-mobilebg {
+        overflow: hidden;
+    }
+    .slider-bgimage .slider-slic button.slick-arrow{
+        z-index: 99;
+    }
+    .mobile-menu-box a.mobile-menu.close-menu span:first-child {
+        transform: rotate(45deg);
+        top: 10px;
+    }
+
+    .mobile-menu-box a.mobile-menu.close-menu span:last-child {
+        transform: rotate(-45deg);
+        top: 10px;
+    }
+
+    .mobile-menu-box a.mobile-menu.close-menu span:nth-child(2) {
+        opacity: 0;
+    }
+    .contact-box-section .left-contact-infbox {
+        float: left;
+        width: 100%;
+        padding-right: 0;
+        max-width: 450px;
+        margin: 0 auto;
+        float: none;
+    }
+    .contact-box-section .contact-form-box {
+        float: none;
+        width: 100%;
+        max-width: 450px;
+        margin: 0 auto;
+    }
+    .left-contact-infbox .lefticons {
+        float: left;
+        width: 50px;
+        height: 50px;
+    }
+    .left-contact-infbox .contrit-textbox p, .left-contact-infbox .contrit-textbox p a {
+        font-size: 18px;
+        line-height: 18px;
+    }
+    .contact-infblock .contrit-textbox span {
+        margin-top: 10px;
+        display: inline-block;
+        font-size: 15px;
+        line-height: 20px;
+    }
+    .contact-box-section .form-group .form-submit-btn {
+        min-width: 170px;
+        font-size: 18px;
+        font-family: 'Mulish';
+        height: 45px;
+        line-height: 45px;
+    }
+    .contact-infblock {
+        margin-bottom: 15px;
+    }
+    .left-contact-infbox .contrit-textbox{
+        padding-left: 15px;
+    }
+    .inner-page-banner h1 span {
+        font-size: 24px;
+        line-height: 24px;
+    }
+    footer.inner-footer {
+        padding: 40px 0 30px;
+    }
+    .who-ayedsazan-listsection .all-list-boxes ul li{
+        width: 100%;
+        padding: 0 15px;
+    }
+    .who-ayedsazan-listsection .all-list-boxes ul li span{
+        width: 30px;
+        height: 30px;
+    }
+    .who-ayedsazan-listsection .middle-listtitle h2 {
+        font-size: 25px;
+        line-height: 30px;
+    }
+    .who-ayedsazan-listsection .all-list-boxes ul{
+        margin: 0 -15px;
+    }
+    .who-ayedsazan-listsection .all-list-boxes ul li p{
+        padding-left: 15px; 
+        width: calc(100% - 30px);
+    }
+    .wellcome-middle-section .middle-welcom-box{
+        padding:35px 50px;
+    }
+    .wellcome-middle-section .middle-welcom-box p {
+        font-size: 22px;
+        line-height: 28px;
+    }
+    .wellcome-middle-section .middle-welcom-box h2 {
+        font-size: 26px;
+        line-height: 32px;
+    }
+    .wellcome-middle-section .middle-welcom-box {
+        max-width: 480px;
+    }
+    .aboutpage-cont-witimg .onlycontent-section {
+        padding: 30px 0 30px;
+    }
+
+}
+@media(max-width:639px){
+    .wellcome-middle-section{
+        padding: 0 15px;
+    }
+    .wellcome-middle-section .middle-welcom-box {
+        max-width: 100%;
+    }
+    .wellcome-middle-section .middle-welcom-box h2 {
+        font-size: 22px;
+        line-height: 28px;
+    }
+    .wellcome-middle-section .middle-welcom-box {
+        padding: 25px 20px;
+    }
+    .wellcome-middle-section .middle-welcom-box p br{
+        display: none;
+    }
+}
+@media handheld, only screen and (max-width: 479px) {
+    footer .three-block {
+        width: 100%;
+        margin-bottom: 25px;
+    }
+    .ftr-blocks .ftr-heading{
+        margin-bottom: 10px;
+    }
+    header .logo a img {
+        width: 120px;
+    }
+    .mobile-menu-box a.mobile-menu {
+        width: 23px;
+    }
+    header .right-header .headerlang-box span.select2.select2-container {
+        min-width: 105px;
+    }
+    header .right-header .headerlang-box span.select2.select2-container .selection .select2-selection span.select2-selection__rendered {
+        font-size: 13px;
+    }
+    footer .three-block:last-child{
+        margin-bottom: 0px;
+    }
+}
